@@ -13,7 +13,8 @@ pipeline {
 
         stage('Deploy to Tomcat'){
         steps {
-        sh 'cp -r /root/.jenkins/jobs/pipeline2/workspace/mavewebappdemo/target/* /opt/apache-tomcat-8.0.29/webapps/'
+        sh 'cp -r /root/.jenkins/jobs/pipeline2/workspace/mavewebappdemo/target/* /opt/apache-tomcat-8.5.3/webapps'
+
         }
         }
 
