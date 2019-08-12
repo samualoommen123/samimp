@@ -1,0 +1,1 @@
+aws dynamodb query --table-name MusicCollection --projection-expression "SongTitle" --key-condition-expression "Artist = :v1" --expression-attribute-values file://expression-attributes.json
